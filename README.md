@@ -98,7 +98,9 @@ press Enter key when asked (if dont know what is what)
 <br/>
 
 ### 8) disable debug info & module signing
-        scripts/config --disable DEBUG_INFO && scripts/config --disable MODULE_SIG
+        scripts/config --disable SECURITY_LOCKDOWN_LSM
+        scripts/config --disable DEBUG_INFO
+        scripts/config --disable MODULE_SIG
 
 
 <br/>
